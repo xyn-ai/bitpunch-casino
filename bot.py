@@ -364,4 +364,4 @@ def mines_game(message):
 Следи за обновлениями.
     """
     
-    bot.send_message(message.chat.id, text, parse_mode="Markdown", reply_markup=main_menu()
+    bot.send_message(message.chat.id, text, parse_mode="Markdown", reply_markup=main_menu())
