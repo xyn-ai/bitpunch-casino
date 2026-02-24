@@ -531,6 +531,3 @@ def cashout(message):
 ✅ **КЭШАУТ!** ✅
 
 💰 Выигрыш: {win_amount:.2f} {'монет' if game['mode'] == 'demo' else 'USDT'}
-📈 Множитель: x{current_multiplier:.2f}
-
-💥 Ракета у
