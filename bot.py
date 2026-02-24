@@ -9,7 +9,7 @@ from games import SlotGame, DiceGame, MinesGame, RocketGame
 from payments import CryptoPay, WalletGenerator
 
 # Инициализация
-bot = telebot.TeleBot(8696018423:AAG3XQw6wXSNhY4-qi7mgRQcaq-aFSoCWMc)
+bot = telebot.TeleBot("8696018423:AAG3XQw6wXSNhY4-qi7mgRQcaq-aFSoCWMc")
 db = Database()
 crypto = CryptoPay(CRYPTO_TOKEN) if CRYPTO_TOKEN else None
 
